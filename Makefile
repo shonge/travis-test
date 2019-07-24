@@ -1,6 +1,6 @@
 # test build
 build:
-	go build src/main/main.go -o bin/main.go
+	go build -o bin/main.go src/main/main.go
 docker: build
 	docker build -t test image/test
 test: docker
