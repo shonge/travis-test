@@ -6,4 +6,4 @@ services:
 script:
   - pwd
   - ls
-  - make build
+  - make test
