@@ -4,4 +4,6 @@ go:
 services:
   - docker
 script:
+  - pwd
+  - ls
   - make build
