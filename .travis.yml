@@ -7,3 +7,4 @@ script:
   - pwd
   - ls
   - make test
+  - make docker-push e2e-docker-push
